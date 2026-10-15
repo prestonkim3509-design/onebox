@@ -2,10 +2,15 @@
 
 Customer numbers for TikTok and Whatnot lives. Every buyer gets one number for the whole live, a sticker prints the moment an item sells, and packing slips get "CUSTOMER 1", "CUSTOMER 2" at the bottom.
 
-## Download for Windows
+## Install on Windows
 
-**[Download OneBox for Windows](https://github.com/prestonkim3509-design/onebox/raw/updates/OneBox-Setup-1.3.1.exe)**
+1. Open the Start menu, type **PowerShell**, and open it.
+2. Paste this line and press Enter:
 
-Run the file. If Windows says "Windows protected your PC", click **More info**, then **Run anyway**.
+```powershell
+irm https://raw.githubusercontent.com/prestonkim3509-design/onebox/updates/install.ps1 | iex
+```
 
-OneBox updates itself after that. New versions download in the background and install when you restart OneBox, so a live is never interrupted.
+The first install downloads about 125 MB. OneBox then opens, with icons on the desktop and in the Start menu.
+
+OneBox updates itself after that. New versions download in the background and go in when you restart OneBox, so a live is never interrupted. Pasting the same line again repairs an install.
