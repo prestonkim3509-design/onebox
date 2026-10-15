@@ -1,0 +1,8 @@
+{
+  "name": "onebox",
+  "productName": "OneBox",
+  "version": "1.0.0",
+  "description": "OneBox starter",
+  "main": "boot.js",
+  "private": true
+}
